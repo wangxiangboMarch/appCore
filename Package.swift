@@ -17,7 +17,8 @@ let package = Package(
         .library(name: "PUMLogConsole", targets: ["PUMLogConsole"]),
     ],
     dependencies:[
-        .package(url: "https://github.com/SnapKit/SnapKit.git", .upToNextMajor(from: "5.0.1"))
+//        .package(path: "../../third/SnapKit")
+        .package(url: "https://gitee.com/laoyouHome/SnapKit.git", .upToNextMajor(from: "5.6.0"))
     ],
     targets: [
         .target(name: "APPCoreLibrary",
